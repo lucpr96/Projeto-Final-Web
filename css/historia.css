@@ -1,0 +1,504 @@
+/* Flex */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    background-color: #300117ea;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-block-end: 10px;
+    color: gold;
+    font-family:'Griffy', cursive;
+    font-size: 150px;
+
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-block-end: 10px;
+    color: gold;
+    font-family:'Griffy', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+
+/* icon */
+
+.icon {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: -30px;
+}
+
+.icon img {
+    width: 90px;
+    padding-top: -30px;
+    
+}
+
+/* Card */
+
+.card {
+    width: 600px;
+    padding: 25px;
+    background-color: rgba(108, 76, 58, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+.card1 {
+    width: 600px;
+    padding: 25px;
+    background-color: rgba(108, 76, 58, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+.card2 {
+    width: 500px;
+    padding: 25px;
+    background-color: rgba(108, 102, 58, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+.card3 {
+    width: 600px;
+    padding: 25px;
+    background-color: rgba(108, 102, 58, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+.card4 {
+    width: 600px;
+    padding: 25px;
+    background-color: rgba(58, 79, 108, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+.card5 {
+    width: 600px;
+    padding: 25px;
+    background-color: rgba(58, 79, 108, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+.card6 {
+    width: 600px;
+    padding: 25px;
+    background-color: rgba(58, 108, 58, 0.853);
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.card6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(70, 3, 3);
+    border-right: 20px solid rgb(70, 3, 3);
+}
+
+/* Content */
+
+.content {
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.content::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.content h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 45px;
+    position: relative;
+    color: gold;
+    font-family:'Bigelow Rules', cursive;
+    margin-top: -30px;
+}
+
+.content p {
+    color: rgb(202, 152, 3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* button */
+
+#read_button {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+#read {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+#read_ {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+#read_b {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_b:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+#read_bu {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_bu:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+#read_but {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_but:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+#read_butt {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: rgb(70, 3, 3);
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_butt:hover {
+    background-color: transparent;
+    color: rgb(70, 3, 3);
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Active */
+
+.card.active .content {
+    height: auto;
+}
+
+.card.active .content::before {
+    visibility: hidden;
+}
+
+.card1.active .content {
+    height: auto;
+}
+
+.card1.active .content::before {
+    visibility: hidden;
+}
+
+.card2.active .content {
+    height: auto;
+}
+
+.card2.active .content::before {
+    visibility: hidden;
+}
+
+.card3.active .content {
+    height: auto;
+}
+
+.card3.active .content::before {
+    visibility: hidden;
+}
+
+.card4.active .content {
+    height: auto;
+}
+
+.card4.active .content::before {
+    visibility: hidden;
+}
+
+.card5.active .content {
+    height: auto;
+}
+
+.card5.active .content::before {
+    visibility: hidden;
+}
+
+.card6.active .content {
+    height: auto;
+}
+
+.card6.active .content::before {
+    visibility: hidden;
+}
+
+
+/* Barra Lateral */
+
+nav.Menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: rgba(56, 38, 3, 0.815);
+    padding: 40px 0 40px 1%;
+    box-shadow: 6px 0 0 rgb(70, 3, 3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+
+nav.Menu-lateral:hover{
+    width: 200px;
+}
+
+.btn-expandir {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: gold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 10%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    width: 100%;
+    padding-right: 60px;
+    font-size: 50px;
+    
+}
+
+ul li.item-menu a{
+    display: flex;
+    font-size: 20px;
+    color: gold;
+    padding: 10px 4%;
+    margin-bottom: 10px;
+    line-height: 30px;
+
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 30px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 35px;
+    margin-left: -20px;
+}
