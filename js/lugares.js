@@ -26,6 +26,11 @@ button.addEventListener('click', function() {
 
 });
 
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector(".nav");
+
+hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+
 
 var button = document.getElementById('read_button2');
 
